@@ -35,8 +35,6 @@
     }
 }
 
-
-
 #bar {
     width: 85px;
     height: 85px;
@@ -50,7 +48,6 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
 
 @keyframes bar-animation {
     0% {

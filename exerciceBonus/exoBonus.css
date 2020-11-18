@@ -122,8 +122,6 @@
     animation-direction: alternate;
 }
 
-
-
 @keyframes nuage {
     from {
         transform: translateX(0);
