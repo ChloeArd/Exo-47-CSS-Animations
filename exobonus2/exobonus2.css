@@ -25,6 +25,12 @@
      height: 20px;
      top: 40px;
      left: -70px;
+    animation-name: rotPalme;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
 }
 
 #palmeH {
@@ -34,13 +40,18 @@
     height: 400px;
     top: -175px;
     left: 117px;
+    animation-name: rotPalme;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+
 }
 
-#helice {
-    animation-name: rotHelice;
-    animation-duration: 5s;
-}
-
-@keyframes rotHelice {
+@keyframes rotPalme {
+    0% {
+        transform: rotate(180deg);
+    }
 
 }
